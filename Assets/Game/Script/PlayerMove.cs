@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
     {
         move = inputValue.Get<Vector2> ();
         move = Vector2.ClampMagnitude (move, 1f);
+        Debug.Log ($"MOVE = {move}");
     }
     void Update ()
     {

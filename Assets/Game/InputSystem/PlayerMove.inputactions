@@ -29,7 +29,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "2D Vector",
+                    "name": "Move",
                     "id": "88f48de7-92c2-4b4e-8eb5-05954c2e01f7",
                     "path": "2DVector",
                     "interactions": "",
