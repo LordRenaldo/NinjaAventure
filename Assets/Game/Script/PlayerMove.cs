@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
         animator = GetComponent<Animator> ();
     }
 
-    void OnMove ( InputValue inputValue )
+    public void OnMove ( InputValue inputValue )
     {
         move = inputValue.Get<Vector2> ();
         move = Vector2.ClampMagnitude (move, 1f);
