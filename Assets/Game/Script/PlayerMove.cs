@@ -8,8 +8,11 @@ public class PlayerMove : MonoBehaviour
     Animator animator;
     Vector2 move;
     Vector2 faceDir = Vector2.down;
-
+    bool inMotion;
     [SerializeField] float speed = 5f;
+
+    public bool InMotion => inMotion;
+    public Vector2 Move => move;
 
     void Awake ()
     {
